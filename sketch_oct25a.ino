@@ -5,8 +5,8 @@
 
 #define Room_Livingroom 5 // 거실 LED를 5번 pin에 배정
 #define Room_TV 6 // TV LED를 6번 pin에 배정
-#define Room_Kitchen 7 // 주방 LED를 7번 pin에 배정
-#define Room_AC 8 // AC LED를 8번 pin에 배정
+#define Room_AC 7 // AC LED를 7번 pin에 배정
+#define Room_Kitchen 8 // 주방 LED를 8번 pin에 배정
 
 
 SoftwareSerial BT(BTtx, BTrx); // 통신함수 객체
